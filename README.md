@@ -4,8 +4,8 @@
 - Склонировать проект и перейти в папку проекта
 
 ```bash
-git clone
-cd 
+git clone https://github.com/dangerousmonk/FunBoxAPI
+cd FunBoxAPI
 ```
 - Установить Python >= 3.8 и Redis в случае если они не установлены
 - Активировать виртуальное окружение, или создать новый проект в PyCharm
