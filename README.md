@@ -31,5 +31,11 @@ redis-server
 python manage.py runserver
 ```
 
+-Запустить тесты:
+```bash
+pytest
+```
+
+
 
 
