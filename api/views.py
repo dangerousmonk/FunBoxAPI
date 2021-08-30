@@ -13,7 +13,6 @@ redis_instance = redis.StrictRedis(host=settings.REDIS_HOST,
 
 
 # Assume if submitted link exists - only update its timestamp
-
 @api_view(['POST'])
 def visited_links(request, *args, **kwargs) -> Response:
     data = request.data.get('links')
