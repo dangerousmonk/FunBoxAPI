@@ -96,5 +96,5 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-REDIS_HOST = 'localhost'
+REDIS_HOST = 'redis-server'
 REDIS_PORT = 6379

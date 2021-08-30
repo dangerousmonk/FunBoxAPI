@@ -34,8 +34,6 @@ INVALID_LINK_TYPES = [
 ]
 
 
-# Tests assume we use different hosts/ports for prod and tests
-# Will clear db on each test run as localhost used for both
 def test_redis_server_is_available():
     assert redis_instance.ping()
 
