@@ -28,6 +28,7 @@ redis-server
 
 -Запустить проект:
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
 
